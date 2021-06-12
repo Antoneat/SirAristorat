@@ -8,6 +8,23 @@ TagManager:
   - Wall
   - OuterCorner
   - Room
+  - quesoP1
+  - enemy1
+  - caja
+  - HealUp
+  - enemy2
+  - ModelEvade
+  - ModelAtk
+  - PlayerWep
+  - destination
+  - balistas
+  - Flechas
+  - interruptor
+  - puerta
+  - trap2
+  - Trap1
+  - turn
+  - player
   layers:
   - Default
   - TransparentFX
@@ -15,9 +32,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - player
+  - walls
+  - targets
   - 
   - 
   - 
