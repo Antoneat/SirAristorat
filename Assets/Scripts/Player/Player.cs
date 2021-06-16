@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
 
         if (other.gameObject.tag == "quesoP1")
         {
-            SceneManager.LoadScene("lvl1");
+            SceneManager.LoadScene("Nivel 1");
         }
     }
     public void Dead()
@@ -70,8 +70,7 @@ public class Player : MonoBehaviour
         isAlive = false;
         Destroy(gameObject);
 
-        //load scene bla bla al game over de ahi a donde tu quieras 
-        //resetea todo uwu
+        SceneManager.LoadScene("GameO");
 
     }
 }

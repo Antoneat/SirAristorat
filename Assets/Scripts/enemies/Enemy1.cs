@@ -42,6 +42,6 @@ public class Enemy1 : MonoBehaviour
     {
         isAlive = false;
 
-        //destroy bih
+        Destroy(gameObject);
     }
 }

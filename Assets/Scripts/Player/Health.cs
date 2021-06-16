@@ -10,10 +10,13 @@ public class Health : MonoBehaviour
     private float vulTimer = 0f;
     private float vulCD = 0f;
 
+    Player ply;
+
     //ui d vida <3 = 3;
 
     void Start()
     {
+        ply = GetComponent<Player>();
         hp = 3;
        vulnerable = true;
     }
@@ -58,6 +61,7 @@ public class Health : MonoBehaviour
             hp = hp + 1;
         }
     }
+
     public void GetHit1()
     {
         if (vulnerable)
@@ -68,7 +72,8 @@ public class Health : MonoBehaviour
 
             if (hp <= 0)
             {
-                GetComponent<Player>().Dead();
+                ply.Dead();
+               
             }
         }
     }
@@ -83,7 +88,7 @@ public class Health : MonoBehaviour
 
             if (hp <= 0)
             {
-                GetComponent<Player>().Dead();
+                ply.Dead();
             }
         }
     }

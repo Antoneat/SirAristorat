@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 710135051565740484}
   - component: {fileID: 710135051565740485}
   - component: {fileID: 710135051565740486}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: balista
   m_TagString: balistas
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
@@ -56,10 +56,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -84,6 +86,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &710135051565740488
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -137,8 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8e2894690dec1f488a346570782901d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyOneBullet: {fileID: 5374460818776918253, guid: 717e692ab562b2c42afadfff8a151208,
-    type: 3}
+  EnemyOneBullet: {fileID: 5374460818776918253, guid: 717e692ab562b2c42afadfff8a151208, type: 3}
   barrel: {fileID: 710135053094033252}
   shootrate: 20
 --- !u!1 &710135053094033259
@@ -150,7 +152,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 710135053094033252}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}

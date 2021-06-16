@@ -7,7 +7,7 @@ public class enemyPatrol : MonoBehaviour
 	public Transform player;
 	public float playerDistance;
 	public float awareAI = 10f;
-	public float AIMoveSpeed;
+	public float Speed;
 	public float damping = 6.0f;
 
 	public Transform[] navPoint;
@@ -73,7 +73,7 @@ public class enemyPatrol : MonoBehaviour
 
 	public void Chase()
 	{
-		transform.Translate(Vector3.forward * AIMoveSpeed * Time.deltaTime);
+		transform.Translate(Vector3.forward * Speed * Time.deltaTime);
 		agent.SetDestination(player.transform.position);
 	}
 
