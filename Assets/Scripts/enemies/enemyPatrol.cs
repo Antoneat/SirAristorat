@@ -5,10 +5,11 @@ using UnityEngine;
 public class enemyPatrol : MonoBehaviour
 {
 	public Transform player;
-	public float playerDistance;
-	public float awareAI = 10f;
+	//public float playerDistance;
+	//public float awareAI = 20f;
 	public float Speed;
-	public float damping = 6.0f;
+	//public float damping = 6.0f;
+	EnemyStun ees;
 
 	public Transform[] navPoint;
 	public UnityEngine.AI.NavMeshAgent agent;
@@ -18,7 +19,7 @@ public class enemyPatrol : MonoBehaviour
 
 	void Start()
 	{
-		
+		ees = GetComponent<EnemyStun>();
 		UnityEngine.AI.NavMeshAgent agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		agent.destination = goal.position;
 
@@ -31,7 +32,7 @@ public class enemyPatrol : MonoBehaviour
 
 
 
-		playerDistance = Vector3.Distance(player.position, transform.position);
+		//playerDistance = Vector3.Distance(player.position, transform.position);
 
 		/*if (playerDistance < awareAI)
 		{
@@ -64,17 +65,23 @@ public class enemyPatrol : MonoBehaviour
 
 	public void GotoNextPoint()
 	{
-		if (navPoint.Length == 0)
+		if(ees.notStun==true)
+		{ 
+		if (navPoint.Length <= 0)
 			return;
 		agent.destination = navPoint[destPoint].position;
 		destPoint = (destPoint + 1) % navPoint.Length;
+		}
 	}
 
 
 	public void Chase()
 	{
-		transform.Translate(Vector3.forward * Speed * Time.deltaTime);
+		if (ees.notStun == true)
+		{
+			transform.Translate(Vector3.forward * Speed * Time.deltaTime);
 		agent.SetDestination(player.transform.position);
+		}
 	}
 
 

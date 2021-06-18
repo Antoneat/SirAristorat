@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class EnemyStun : MonoBehaviour
 {
-    private float stunTimer = 0f;
-    private float stunCD = 0f;
+    private float stunTimer;
+    private float stunCD;
     public bool notStun;
     
    
     void Start()
     {
-        
-      notStun = true;
+        stunCD=0;
+        stunTimer=0;
+        notStun = true;
       //GameObject.Find("Player").GetComponent<PHeathEnemy>().enabled = true;
     }
 
@@ -23,7 +24,7 @@ public class EnemyStun : MonoBehaviour
         {
             
             stunCD += Time.deltaTime;
-            if (stunCD >= 2.0f)
+            if (stunCD >= 4.0f)
             {
 
                 
