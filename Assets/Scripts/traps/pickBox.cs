@@ -6,16 +6,23 @@ public class pickBox : MonoBehaviour
 {
     public Transform dest;
     public bool carrying;
-    public float range = 10;
-    public float throwForce = 600;
+    public float range;
+    public float throwForce;
 
-    modelChange modCha;
-    Button1y4 butt;
+    public modelChange modCha;
+    public Button1y4 butt;
+
+    void Awake()
+    {
+        GameObject Player = GameObject.FindGameObjectWithTag("Player");
+        modCha = Player.GetComponent<modelChange>();
+        butt = Player.GetComponent<Button1y4>();
+    }
 
     void Start()
     {
-        modCha = GetComponent<modelChange>();
-        butt = GetComponent<Button1y4>();
+       
+     
         carrying = false;
     }
 
@@ -24,24 +31,24 @@ public class pickBox : MonoBehaviour
         {
             if (carrying == false)
             {
-                if (Input.GetKeyDown(KeyCode.Alpha2) /*&& butt.evading == false*/ && (dest.transform.position - transform.position).sqrMagnitude < range / range )
+                if (Input.GetKeyDown(KeyCode.Alpha2) && butt.evading == false && (dest.transform.position - transform.position).sqrMagnitude < range / range )
                 {
                     OnThree();
                     carrying = true;
-                    //butt.evading = false;
+                    butt.evading = false;
 
 
                     modCha.model1.SetActive(true);
                     modCha.model2.SetActive(false); 
                 }
             }
-            else if (carrying == true)
+            else if (carrying == true && butt.evading == false)
             {
                 if (Input.GetKeyDown(KeyCode.Alpha3))
                 {
                     OnFour();
                     carrying = false;
-                    //butt.evading = false;
+                    butt.evading = false;
 
                     modCha.model1.SetActive(true);
                     modCha.model2.SetActive(false);

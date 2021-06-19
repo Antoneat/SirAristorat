@@ -12,7 +12,6 @@ public class Health : MonoBehaviour
 
     Player ply;
 
-    //ui d vida <3 = 3;
 
     void Start()
     {
@@ -59,6 +58,7 @@ public class Health : MonoBehaviour
         if (hp <= 2)
         {
             hp = hp + 1;
+            HpText.hpV += 1;
         }
     }
 
@@ -67,6 +67,7 @@ public class Health : MonoBehaviour
         if (vulnerable)
         {
             hp = hp - 1;
+            HpText.hpV -= 1;
             vulnerable = false;
             Debug.Log("GodMode");
 
@@ -88,6 +89,7 @@ public class Health : MonoBehaviour
 
             if (hp <= 0)
             {
+                HpText.hpV -= 1;
                 ply.Dead();
             }
         }

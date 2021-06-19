@@ -13,17 +13,19 @@ public class PHeathEnemy : MonoBehaviour
     void Awake()
     {
         compHealth = GetComponent<Health>();
-        
 
-    }
-
-    void Start()
-    {
-        isAlive = true;
         GameObject Enemy1 = GameObject.FindGameObjectWithTag("enemy1");
         GameObject Enemy2 = GameObject.FindGameObjectWithTag("enemy2");
         es = Enemy1.GetComponent<EnemyStun>();
         es2 = Enemy2.GetComponent<EnemyStun>();
+    }
+
+    void Start()
+    {
+
+        isAlive = true;
+       
+        
     }
 
 
@@ -48,11 +50,6 @@ public class PHeathEnemy : MonoBehaviour
             if (other.gameObject.tag == "enemy2")
             {
                 compHealth.GetHit2();
-
-                /*if (isAlive)
-                {
-                    compRendering.PlayDamageFlashing();
-                }*/
             }
         }
 

@@ -4,10 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Floor
-  - Wall
-  - OuterCorner
-  - Room
   - quesoP1
   - enemy1
   - caja
@@ -23,8 +19,10 @@ TagManager:
   - puerta
   - trap2
   - Trap1
-  - turn
   - player
+  - Bdoor1
+  - Bdoor2
+  - panel
   layers:
   - Default
   - TransparentFX

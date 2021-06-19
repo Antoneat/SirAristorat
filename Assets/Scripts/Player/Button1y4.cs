@@ -20,9 +20,9 @@ public class Button1y4 : MonoBehaviour
         sword = false;
         evading = false;
 
-    boxC= GetComponent<BoxCollider>();
+        boxC= GetComponent<BoxCollider>();
         modCha = GetComponent<modelChange>();
-        pick = GetComponent<pickBox>();
+      
     }
 
     void Update()
@@ -42,12 +42,12 @@ public class Button1y4 : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.Alpha1) && sword == false  )
+        if (Input.GetKeyDown(KeyCode.Alpha1) && sword == false)
         {
             sword = true;
             evading = false;
 
-            boxC.size = new Vector3(1, 1, 1);
+           // boxC.size = new Vector3(1, 1, 1);
             //boxC.center = new Vector3(0, 0, 0); //box collider se hace de la mitad del size, cambia size en y
 
             modCha.model1.SetActive(true);   
@@ -57,13 +57,13 @@ public class Button1y4 : MonoBehaviour
             
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha4) && sword == true /*&& pick.carrying == false*/)
+        if (Input.GetKeyDown(KeyCode.Alpha4))
         {
            
             sword = false;
             evading = true;
 
-            boxC.size = new Vector3(1, 0.35f, 1);
+            //boxC.size = new Vector3(1, 0.35f, 1);
             // boxC.center= new Vector3(0, 0.25f, 0); //box collider se hace de la mitad del size, cambia size en y
 
             modCha.model1.SetActive(false);

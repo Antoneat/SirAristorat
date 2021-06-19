@@ -7,8 +7,16 @@ public class EnemyStun : MonoBehaviour
     private float stunTimer;
     private float stunCD;
     public bool notStun;
-    
-   
+
+    public Health HS;
+
+    void Awake()
+    {
+        GameObject Player = GameObject.FindGameObjectWithTag("Player");
+        HS = Player.GetComponent<Health>();
+
+    }
+
     void Start()
     {
         stunCD=0;
@@ -58,6 +66,22 @@ public class EnemyStun : MonoBehaviour
         {
             Debug.Log("get stunned");
             notStun = false;
+        }
+
+        if (notStun == true && gameObject.tag=="enemy1")
+        {
+            if (other.gameObject.tag == "Player")
+            {
+                HS.GetHit1();
+            }
+        }
+
+        if (notStun == true)
+        {
+            if (other.gameObject.tag == "Player" && gameObject.tag == "enemy2")
+            {
+                HS.GetHit2();
+            }
         }
     }
 }

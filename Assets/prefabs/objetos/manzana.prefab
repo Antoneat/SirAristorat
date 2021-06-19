@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7442946762262185918}
   - component: {fileID: 1208627963248554526}
+  - component: {fileID: 6718650531406526697}
   m_Layer: 0
   m_Name: manzana
   m_TagString: HealUp
@@ -40,12 +41,25 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7782633614553406724}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 1
+  m_Height: 1.059744
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.029872, z: 0}
+--- !u!114 &6718650531406526697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782633614553406724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93e67523d573c574eb078acaf770d930, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 5e46b9af93d1abf44992f1a91c7791b0, type: 2}
 --- !u!1001 &2659345111591167886
 PrefabInstance:
   m_ObjectHideFlags: 0

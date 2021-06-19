@@ -50,7 +50,15 @@ public class enemyPatrol : MonoBehaviour
 				GotoNextPoint();
 		}
 		*/
+		if (ees.notStun == false)
+		{
+			agent.isStopped = true;
+		}
+		else
 
+        {
+			agent.isStopped = false;
+		}
 
 		if (agent.remainingDistance < 1f)
 			GotoNextPoint();
@@ -65,23 +73,21 @@ public class enemyPatrol : MonoBehaviour
 
 	public void GotoNextPoint()
 	{
-		if(ees.notStun==true)
-		{ 
+		
 		if (navPoint.Length <= 0)
 			return;
 		agent.destination = navPoint[destPoint].position;
 		destPoint = (destPoint + 1) % navPoint.Length;
-		}
+		
 	}
 
 
 	public void Chase()
 	{
-		if (ees.notStun == true)
-		{
+		
 			transform.Translate(Vector3.forward * Speed * Time.deltaTime);
 		agent.SetDestination(player.transform.position);
-		}
+		
 	}
 
 
