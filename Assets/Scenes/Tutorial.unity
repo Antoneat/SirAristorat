@@ -3215,7 +3215,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: -0.5
   far clip plane: 1000
   field of view: 57.80553
   orthographic: 1
@@ -3547,6 +3547,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 165833307953576647, guid: 45a58b5c39a384f4c9fadc1e3aeafc15, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 165833307953576647, guid: 45a58b5c39a384f4c9fadc1e3aeafc15, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 165833307953576647, guid: 45a58b5c39a384f4c9fadc1e3aeafc15, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 165833307953576647, guid: 45a58b5c39a384f4c9fadc1e3aeafc15, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 887871483997104981, guid: 45a58b5c39a384f4c9fadc1e3aeafc15, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619479075337145235, guid: 45a58b5c39a384f4c9fadc1e3aeafc15, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3475171886456979913, guid: 45a58b5c39a384f4c9fadc1e3aeafc15, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -3602,6 +3626,10 @@ PrefabInstance:
     - target: {fileID: 8547262870279360345, guid: 45a58b5c39a384f4c9fadc1e3aeafc15, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8620412511891363335, guid: 45a58b5c39a384f4c9fadc1e3aeafc15, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45a58b5c39a384f4c9fadc1e3aeafc15, type: 3}
