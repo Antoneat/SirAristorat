@@ -4,20 +4,24 @@ using UnityEngine;
 
 public class Respawn : MonoBehaviour
 { 
- public bool Death;
-public float Timer;
-public float Cooldown;
-public GameObject Enemy;
-public string EnemyName;
-GameObject LastEnemy;
+   public bool Death;
+   public float Timer;
+   public float Cooldown;
+   public GameObject Enemy;
+   public string EnemyName;
+   GameObject LastEnemy;
 
-// Use this for initialization
-   void Start()
-  {
+    public GameObject model1;
+    public GameObject model2;
+
+    // Use this for initialization
+    void Start()
+    {
     //If you want, add this line:
     Death = false;
     this.gameObject.name = EnemyName + "spawn point";
-  }
+        model1.SetActive(true);
+    }
 
 // Update is called once per frame
   void Update()
@@ -26,8 +30,11 @@ GameObject LastEnemy;
     {
         //If my enemy is death, a timer will start.
         Timer += Time.deltaTime;
+        model1.SetActive(false);
+        model2.SetActive(true);
 
-    }
+        }
+
     //If the timer is bigger than cooldown.
     if (Timer >= Cooldown)
     {
