@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/inicio.unity
     guid: 267a797fc890ee94d8997d9a9c64ae30
   - enabled: 1
-    path: Assets/Scenes/credits.unity
-    guid: 9624fe6558aa85d49ba7058da04f2ae5
-  - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 5dbff9acff8431b4882198b48ae45d79
   - enabled: 1
@@ -20,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lvl2.unity
     guid: a08714fd86f5db14e8be3c9ac24ea3be
+  - enabled: 1
+    path: Assets/Scenes/credits.unity
+    guid: 9624fe6558aa85d49ba7058da04f2ae5
   - enabled: 1
     path: Assets/Scenes/GameO.unity
     guid: e3fd17cfb435730438d1f9dddf083704

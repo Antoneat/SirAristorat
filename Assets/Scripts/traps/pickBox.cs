@@ -14,15 +14,15 @@ public class pickBox : MonoBehaviour
 
     void Awake()
     {
-        GameObject Player = GameObject.FindGameObjectWithTag("Player");
-        modCha = Player.GetComponent<modelChange>();
-        butt = Player.GetComponent<Button1y4>();
+        
     }
 
     void Start()
     {
-       
-     
+        GameObject Player = GameObject.FindGameObjectWithTag("Player");
+        modCha = Player.GetComponent<modelChange>();
+        butt = Player.GetComponent<Button1y4>();
+
         carrying = false;
     }
 

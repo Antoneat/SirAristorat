@@ -12,17 +12,18 @@ public class EnemyStun : MonoBehaviour
 
     void Awake()
     {
-        GameObject Player = GameObject.FindGameObjectWithTag("Player");
-        HS = Player.GetComponent<Health>();
+        
 
     }
 
     void Start()
     {
-        stunCD=0;
+        GameObject Player = GameObject.FindGameObjectWithTag("Player");
+        HS = Player.GetComponent<Health>();
+
+        stunCD =0;
         stunTimer=0;
         notStun = true;
-      //GameObject.Find("Player").GetComponent<PHeathEnemy>().enabled = true;
     }
 
   

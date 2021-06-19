@@ -20,7 +20,7 @@ public class Interruptor : MonoBehaviour
 
     void OnTriggerEnter(UnityEngine.Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "ModelAtk" || other.gameObject.tag == "ModelEvade")
         {
             modCha.model1.SetActive(false);
             modCha.model2.SetActive(true);

@@ -77,8 +77,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dest: {fileID: 0}
   carrying: 0
-  range: 20
+  range: 30
   throwForce: 900
+  modCha: {fileID: 0}
+  butt: {fileID: 0}
 --- !u!1001 &8856317072046973828
 PrefabInstance:
   m_ObjectHideFlags: 0

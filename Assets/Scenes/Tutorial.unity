@@ -509,7 +509,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -117, y: -76}
+  m_AnchoredPosition: {x: -111, y: -73}
   m_SizeDelta: {x: 120, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &194038832
@@ -772,7 +772,7 @@ RectTransform:
   - {fileID: 2011276568}
   - {fileID: 71922478}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1363,7 +1363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5074954055616161725, guid: 8414b452963a4f944b0ccd8f0290da9f, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5074954055616161725, guid: 8414b452963a4f944b0ccd8f0290da9f, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1564,7 +1564,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 413998486}
         m_TargetAssemblyTypeName: Pause, Assembly-CSharp
-        m_MethodName: Resume
+        m_MethodName: Paused
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1859,7 +1859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7855997204818927538, guid: 90a473cc18bd623409942203fbf0c6fe, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7855997204818927538, guid: 90a473cc18bd623409942203fbf0c6fe, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1950,6 +1950,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7954286345815847899, guid: 970629c6df1725c4f8c07923af826df6, type: 3}
+      propertyPath: HS
+      value: 
+      objectReference: {fileID: 3475171888002138650}
     - target: {fileID: 7954286346326368589, guid: 970629c6df1725c4f8c07923af826df6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -2715,7 +2719,7 @@ RectTransform:
   m_Children:
   - {fileID: 194038831}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2916,7 +2920,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1977398264
 GameObject:
@@ -3601,6 +3605,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45a58b5c39a384f4c9fadc1e3aeafc15, type: 3}
+--- !u!114 &3475171888002138650 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3777530055467283329, guid: 45a58b5c39a384f4c9fadc1e3aeafc15, type: 3}
+  m_PrefabInstance: {fileID: 3475171888002138649}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb88250a8b55823459527eb8e2521133, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8524843972241834370
 PrefabInstance:
   m_ObjectHideFlags: 0

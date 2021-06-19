@@ -20,11 +20,4 @@ public class Pause : MonoBehaviour
         canvas.enabled = active;
         Time.timeScale = (active) ? 0 : 1f;
     }
-
-    public void Resume()
-    {
-        active = !active;
-        canvas.enabled = active;
-        Time.timeScale = (active) ? 0 : 1f;
-    }
 }
