@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7677927780134524026}
   - component: {fileID: 3152091081313071922}
   m_Layer: 0
-  m_Name: objetos_mapap:puierta:pCube6
+  m_Name: cerrada
   m_TagString: puerta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,12 +108,12 @@ GameObject:
   - component: {fileID: 6156070979660718797}
   - component: {fileID: 8958421275915035426}
   m_Layer: 0
-  m_Name: objetos_mapap:puierta:pCube6 (2)
+  m_Name: abierta
   m_TagString: Bdoor1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9083372493288104547
 Transform:
   m_ObjectHideFlags: 0

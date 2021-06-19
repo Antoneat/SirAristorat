@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 3980705487798954729}
   - component: {fileID: 8446454781373135246}
   m_Layer: 0
-  m_Name: objetos_mapap:puerta2:pCone7 (1)
+  m_Name: abierta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3980705487798954729
 Transform:
   m_ObjectHideFlags: 0
@@ -84,7 +84,7 @@ GameObject:
   - component: {fileID: 1731954691165469618}
   - component: {fileID: 4685106693558008977}
   m_Layer: 0
-  m_Name: objetos_mapap:puerta2:pCone7
+  m_Name: cerrada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
