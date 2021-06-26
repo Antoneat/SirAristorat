@@ -30,12 +30,6 @@ public class Player : MonoBehaviour
 
     void OnTriggerEnter(UnityEngine.Collider other)
     {
-       /* if (other.gameObject.tag == "HealUp" && compHealth.hp <= 2)
-        {
-            compHealth.GetHeal();
-
-            Destroy(other.gameObject);
-        }*/
 
         if (other.gameObject.tag == "Flechas")
         {
@@ -44,7 +38,7 @@ public class Player : MonoBehaviour
 
         if (other.gameObject.tag == "Bdoor1")
         {
-            SceneManager.LoadScene("lvl2");
+            SceneManager.LoadScene("Nivel 2");
         }
 
         if (other.gameObject.tag == "Bdoor2")

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy2Health : MonoBehaviour
 {
     public int hp;
-
+    Enemy2 ee;
 
     void Start()
     {
@@ -24,6 +24,7 @@ public class Enemy2Health : MonoBehaviour
         hp = hp - 1;
         if (hp <=0)
         {
+            ee.Dead();
             GameObject.Find(gameObject.name + ("spawn point")).GetComponent<Respawn>().Death = true;
             Destroy(gameObject);
         }

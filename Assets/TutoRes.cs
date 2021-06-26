@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class TutoRes : MonoBehaviour
 {
-    // Start is called before the first frame update
+    Enemy1Health ee;
+
+    public GameObject model1;
+    public GameObject model2;
+
     void Start()
     {
-        
+        ee = GetComponent<Enemy1Health>();
+        model1.SetActive(true);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Unlock();
+    }
+
+    void Unlock()
+    {
+        if (ee.hp<=0)
+        {
+            model1.SetActive(false);
+            model2.SetActive(true);
+        }
     }
 }

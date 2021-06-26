@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5726773352947265003}
   m_Layer: 7
   m_Name: Pared 2
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,6 +115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pared_2
       objectReference: {fileID: 0}
+    - target: {fileID: 6091155393856206811, guid: 74d85ac406f796d419832c4952460d8d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ee7fe1598632c754a9b8484fdb8ee9d0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74d85ac406f796d419832c4952460d8d, type: 3}
 --- !u!4 &8138435006490544974 stripped

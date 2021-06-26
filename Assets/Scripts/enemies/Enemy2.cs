@@ -25,21 +25,22 @@ public class Enemy2 : MonoBehaviour
     {
 
     }
-   
-    void OnCollisionEnter(Collision other)
+
+    void OnTriggerEnter(UnityEngine.Collider other)
     {
         if (other.gameObject.tag == "PlayerWep")
         {
             compHealth.GetHit();
         }
- 
+
     }
+
     public void Dead()
     {
 
         isAlive = false;
 
-        //destroy bih
+        Destroy(gameObject);
 
     }
 }

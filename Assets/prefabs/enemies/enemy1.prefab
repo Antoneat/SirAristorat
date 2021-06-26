@@ -102,8 +102,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7954286346326368584}
-  - component: {fileID: 7954286346326368590}
   - component: {fileID: 7954286346326368591}
+  - component: {fileID: 3487174416683666852}
   m_Layer: 0
   m_Name: view visualization
   m_TagString: Untagged
@@ -120,19 +120,11 @@ Transform:
   m_GameObject: {fileID: 7954286346326368589}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.12, y: 0.041, z: 0.452}
-  m_LocalScale: {x: 1, y: 0.8679277, z: 1.6962943}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7954286346637800693}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7954286346326368590
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7954286346326368589}
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &7954286346326368591
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -175,6 +167,14 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &3487174416683666852
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7954286346326368589}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &7954286346637800702
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,6 +284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notStun: 0
+  HS: {fileID: 0}
 --- !u!114 &7954286346637800694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,7 +309,7 @@ MonoBehaviour:
   meshResolution: 1
   edgeResolveIterations: 4
   edgeDstThreshold: 0.5
-  viewMeshFilter: {fileID: 7954286346326368590}
+  viewMeshFilter: {fileID: 3487174416683666852}
 --- !u!195 &7954286346637800695
 NavMeshAgent:
   m_ObjectHideFlags: 0

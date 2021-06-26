@@ -42,33 +42,32 @@ public class PMov : MonoBehaviour
         RaycastHit hit; //aqui declare el hit
        
 
-        if (Physics.Raycast(ray, out hit, 10000, IgnoreMe)) //con esto le di su valor al ray, ray lo manda a donde debe ir, out hit devuelve la posicion donde cayo la wea, 1000 es la distancia que recorrera el ray
+        if (Physics.Raycast(ray, out hit, 1000, IgnoreMe)) //con esto le di su valor al ray, ray lo manda a donde debe ir, out hit devuelve la posicion donde cayo la wea, 1000 es la distancia que recorrera el ray
         {
             targetPosition = hit.point;  // this.transform.LookAt(targetPosition); //look at hace que mire a donde le dices, en este caso al target pos
-            lookAtTarget = new Vector3(targetPosition.x - transform.position.x, transform.position.y, targetPosition.z -transform.position.z);  // asi solo se voltea en x y z
-            playerRot = Quaternion.LookRotation(lookAtTarget); //rotacion para mirar al target, se fija el angulo que tienes que rotar
+            if (Vector3.Distance(this.transform.position, targetPosition) >= 1.3f)
+            {
+                lookAtTarget = new Vector3(targetPosition.x - transform.position.x, transform.position.y, targetPosition.z - transform.position.z);  // asi solo se voltea en x y z
+                playerRot = Quaternion.LookRotation(lookAtTarget); //rotacion para mirar al target, se fija el angulo que tienes que rotar
+                moving = true;
+            }
             
-            moving = true;
-
+            
         }
     }
 
     public void Move()
     {
         
-        transform.rotation = Quaternion.Slerp(transform.rotation, playerRot, rotSpeed * Time.deltaTime);
-
-        //transform.position = Vector3.Lerp(starPos, endPos, speed * Time.deltaTime);
-
+        transform.rotation = Quaternion.Slerp(transform.rotation, playerRot, rotSpeed * Time.deltaTime);        //transform.position = Vector3.Lerp(starPos, endPos, speed * Time.deltaTime);
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
 
         if (Vector3.Distance(this.transform.position, targetPosition) <= 1f)  //(transform.position == targetPosition)
         {
             moving = false;
-        }
-           
-        
+        }              
     }
+
 
     void OnCollisionEnter(Collision other)
     {

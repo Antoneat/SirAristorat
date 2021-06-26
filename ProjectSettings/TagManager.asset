@@ -23,6 +23,7 @@ TagManager:
   - Bdoor1
   - Bdoor2
   - panel
+  - wall
   layers:
   - Default
   - TransparentFX
