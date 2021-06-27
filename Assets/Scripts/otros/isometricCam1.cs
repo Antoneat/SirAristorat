@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class isometricCam : MonoBehaviour
+public class isometricCam1 : MonoBehaviour
 {
 
     public GameObject lookAt;
 
     private bool smooth = true;
     private float smoothSpeed = 0.125f;
-    private Vector3 offset = new Vector3(-15, 25, 10);
+    private Vector3 offset = new Vector3(-1, 25, 15);
 
     private void Start()
     {

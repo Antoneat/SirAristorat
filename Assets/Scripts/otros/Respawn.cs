@@ -11,16 +11,13 @@ public class Respawn : MonoBehaviour
    public string EnemyName;
    GameObject LastEnemy;
 
-    public GameObject model1;
-    public GameObject model2;
-
     // Use this for initialization
     void Start()
     {
     //If you want, add this line:
     Death = false;
     this.gameObject.name = EnemyName + "spawn point";
-        model1.SetActive(true);
+ 
     }
 
 // Update is called once per frame
@@ -30,8 +27,6 @@ public class Respawn : MonoBehaviour
     {
         //If my enemy is death, a timer will start.
         Timer += Time.deltaTime;
-        model1.SetActive(false);
-        model2.SetActive(true);
 
         }
 
@@ -44,6 +39,7 @@ public class Respawn : MonoBehaviour
         Instantiate(Enemy);
             LastEnemy = GameObject.Find(Enemy.name + "(Clone)");
             LastEnemy.name = EnemyName;
+
         //My enemy won't be dead anymore.
         Death = false;
         //Timer will restart.
