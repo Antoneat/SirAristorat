@@ -24,7 +24,7 @@ public class Trap1 : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "Player")
-        Destroy(gameObject);
+        //if (other.gameObject.tag == "Player")
+        //Destroy(gameObject);
     }
 }

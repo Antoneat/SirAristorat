@@ -31,7 +31,7 @@ public class Enemy1Health : MonoBehaviour
         if (hp == 0)
         {
             ee.Dead();
-            GameObject.Find(gameObject.name + ("spawn point")).GetComponent<Respawn>().Death = true;
+           // GameObject.Find(gameObject.name + ("spawn point")).GetComponent<Respawn>().Death = true;
             Destroy(gameObject);
         }
     }

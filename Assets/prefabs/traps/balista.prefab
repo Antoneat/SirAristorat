@@ -145,7 +145,7 @@ MonoBehaviour:
   bulletImpulse: 20
   projectile: {fileID: 1062952888759288025, guid: 717e692ab562b2c42afadfff8a151208, type: 3}
   timer: 0
-  MaxTimer: 1
+  MaxTimer: 1.2
 --- !u!1 &710135053094033259
 GameObject:
   m_ObjectHideFlags: 0

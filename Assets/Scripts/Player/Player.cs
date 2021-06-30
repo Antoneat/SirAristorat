@@ -43,17 +43,19 @@ public class Player : MonoBehaviour
 
         if (other.gameObject.tag == "Bdoor2")
         {
-            SceneManager.LoadScene("Nivel 3");
+            SceneManager.LoadScene("procLvl");
+        } 
+        
+        if (other.gameObject.tag == "Bdoor3")
+        {
+            SceneManager.LoadScene("credits");
         }
 
         if (other.gameObject.tag == "quesoP1")
         {
             SceneManager.LoadScene("Nivel 1");
         }
-    }
 
-    void OnCollisionEnter(Collision other)
-    {
 
         if (other.gameObject.tag == "Trap1")
         {
@@ -64,8 +66,9 @@ public class Player : MonoBehaviour
         {
             compHealth.GetHit2();
         }
-
     }
+
+
     public void Dead()
     {
 

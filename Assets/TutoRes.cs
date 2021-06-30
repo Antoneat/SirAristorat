@@ -5,13 +5,14 @@ using UnityEngine;
 public class TutoRes : MonoBehaviour
 {
     Enemy1Health ee;
-
+  
     public GameObject model1;
     public GameObject model2;
 
     void Start()
     {
-        ee = GetComponent<Enemy1Health>();
+        GameObject enemy1 = GameObject.FindGameObjectWithTag("enemy1");
+        ee = enemy1.GetComponent<Enemy1Health>();
         model1.SetActive(true);
     }
 
@@ -27,6 +28,7 @@ public class TutoRes : MonoBehaviour
         {
             model1.SetActive(false);
             model2.SetActive(true);
+
         }
     }
 }

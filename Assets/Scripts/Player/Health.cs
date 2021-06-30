@@ -27,7 +27,7 @@ public class Health : MonoBehaviour
         if (vulnerable==false)
         {
             vulCD += Time.deltaTime;
-            if (vulCD >= 2.0f)
+            if (vulCD >= 0.5f)
             {
                 vulTimer = 0;
                 vulnerable = true;
@@ -37,7 +37,7 @@ public class Health : MonoBehaviour
         else if (vulnerable==true)
         {
             vulTimer += Time.deltaTime;
-            if (vulTimer <= 4.0f)
+            if (vulTimer <= 1.0f)
             {
                 vulCD = 0f;
                 
