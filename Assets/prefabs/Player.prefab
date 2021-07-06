@@ -204,9 +204,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3925187117852635313}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ecbe9f93a9ec6b468aa79ad67f0dd13, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -240,7 +240,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4115811308607760559}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0.03999996, y: 2.11, z: 0.15000057}
+  m_LocalPosition: {x: -0.029, y: 1.393, z: 0.15000057}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7017379199916028502}
@@ -257,9 +257,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.8834735, b: 0.56037736, a: 1}
-  m_Intensity: 1
-  m_Range: 15.844136
+  m_Color: {r: 1, g: 0.8678913, b: 0.4660377, a: 1}
+  m_Intensity: 1.5
+  m_Range: 10
   m_SpotAngle: 42.94747
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -332,7 +332,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4542730686491608765}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.3900001, y: 0, z: 2.16}
+  m_LocalPosition: {x: -0.296, y: 0.202, z: 2.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3092090973747518925}
@@ -592,7 +592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IgnoreMe:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 8
   speed: 5
 --- !u!114 &6051217421905194435
 MonoBehaviour:
@@ -638,7 +638,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 96
   m_CollisionDetection: 0
 --- !u!114 &7086852951492298334
 MonoBehaviour:

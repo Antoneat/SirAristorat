@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3467042683077353432}
   - component: {fileID: 5172084066359003080}
   - component: {fileID: 5590556300880104356}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PISO1 NIVEL 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,6 +114,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8beaa79a48d049e44976352e0120f7e0, type: 3}
       propertyPath: m_Name
       value: piso 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8beaa79a48d049e44976352e0120f7e0, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1403515327070707560, guid: 8beaa79a48d049e44976352e0120f7e0, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4950125957444924684, guid: 8beaa79a48d049e44976352e0120f7e0, type: 3}
       propertyPath: m_Materials.Array.data[0]

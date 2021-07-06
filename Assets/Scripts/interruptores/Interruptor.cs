@@ -24,6 +24,7 @@ public class Interruptor : MonoBehaviour
         {
             modCha.model1.SetActive(false);
             modCha.model2.SetActive(true);
+            Destroy(gameObject,0.5f);
             
         }
     }

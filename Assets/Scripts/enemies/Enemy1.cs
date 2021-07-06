@@ -9,9 +9,6 @@ public class Enemy1 : MonoBehaviour
     Rigidbody compRB;
 
     public bool isAlive;
- 
-    bool moving;
-
 
     void Awake()
     {

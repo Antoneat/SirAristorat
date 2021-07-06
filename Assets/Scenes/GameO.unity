@@ -339,7 +339,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Return to main menu
+  m_Text: Menu Principal
 --- !u!222 &740974274
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -518,7 +518,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You Died
+  m_Text: Estas Muerto
 --- !u!222 &1084238699
 CanvasRenderer:
   m_ObjectHideFlags: 0

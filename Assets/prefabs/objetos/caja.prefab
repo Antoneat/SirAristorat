@@ -77,7 +77,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dest: {fileID: 0}
   carrying: 0
-  range: 40
+  range: 100
   throwForce: 900
   modCha: {fileID: 0}
   butt: {fileID: 0}

@@ -10,12 +10,6 @@ public class EnemyStun : MonoBehaviour
 
     public Health HS;
 
-    void Awake()
-    {
-        
-
-    }
-
     void Start()
     {
         GameObject Player = GameObject.FindGameObjectWithTag("Player");

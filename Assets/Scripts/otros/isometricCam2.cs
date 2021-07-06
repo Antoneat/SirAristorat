@@ -8,8 +8,8 @@ public class isometricCam2 : MonoBehaviour
     public GameObject lookAt;
 
     private bool smooth = true;
-    private float smoothSpeed = 0.125f;
-    private Vector3 offset = new Vector3(10, 30, 10);
+    private float smoothSpeed = 0.5f;
+    private Vector3 offset = new Vector3(15, 30, 10);
 
     private void Start()
     {

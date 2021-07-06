@@ -32,7 +32,6 @@ public class Enemy2 : MonoBehaviour
         {
             compHealth.GetHit();
         }
-
     }
 
     public void Dead()

@@ -62,7 +62,7 @@ public class PMov : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, playerRot, rotSpeed * Time.deltaTime);        //transform.position = Vector3.Lerp(starPos, endPos, speed * Time.deltaTime);
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
 
-        if (Vector3.Distance(this.transform.position, targetPosition) <= 1f)  //(transform.position == targetPosition)
+        if (Vector3.Distance(this.transform.position, targetPosition) <= 1.3f)  //(transform.position == targetPosition)
         {
             moving = false;
         }              

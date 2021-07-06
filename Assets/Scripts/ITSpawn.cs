@@ -12,7 +12,7 @@ public class ITSpawn : MonoBehaviour
     public float itemZsp;
     void Start()
     {
-       /* for (int i = 0; i < numItemsSp; i++) //loop para para spawnear el item las veces que diga el int
+       /* for (int i = 0; i < numItemsSp; i++) //loop para spawnear el item las veces que diga el int
         {
            aqui pondria el SpItems(); 
         }*/

@@ -22,12 +22,14 @@ public class Button1y4 : MonoBehaviour
 
         boxC= GetComponent<BoxCollider>();
         modCha = GetComponent<modelChange>();
-      
+
+        
     }
 
     void Update()
     {
         Attack();
+
     }
 
     public void Attack()
@@ -46,7 +48,7 @@ public class Button1y4 : MonoBehaviour
         {
             sword = true;
             evading = false;
-
+           
            // boxC.size = new Vector3(1, 1, 1);
             //boxC.center = new Vector3(0, 0, 0); //box collider se hace de la mitad del size, cambia size en y
 
