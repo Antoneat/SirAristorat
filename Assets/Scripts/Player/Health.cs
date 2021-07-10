@@ -13,16 +13,6 @@ public class Health : MonoBehaviour
     private float vulCD = 0f;
 
     public bool isAlive;
-    public EnemyStun es;
-    public EnemyStun es2;
-    void Awake()
-    {
-        GameObject Enemy1 = GameObject.FindGameObjectWithTag("enemy1");
-        GameObject Enemy2 = GameObject.FindGameObjectWithTag("enemy2");
-        es = Enemy1.GetComponent<EnemyStun>();
-        es2 = Enemy2.GetComponent<EnemyStun>();
-    }
-
 
     void Start()
     {
@@ -106,28 +96,6 @@ public class Health : MonoBehaviour
                 Dead();
             }
         }
-    }
-
-    void OnCollisionEnter(Collision other)
-    {
-
-        if (es.notStun == true)
-        {
-            if (other.gameObject.tag == "enemy1")
-            {
-                GetHit1();
-            }
-        }
-
-        if (es2.notStun == true)
-        {
-            if (other.gameObject.tag == "enemy2")
-            {
-                GetHit2();
-            }
-        }
-
-
     }
 
     public void Dead()
