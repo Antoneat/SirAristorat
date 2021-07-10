@@ -4739,7 +4739,7 @@ MonoBehaviour:
     m_GlyphIndex: 2179
     m_Scale: 1
   m_AtlasTextures:
-  - {fileID: 28684132378477856}
+  - {fileID: 0}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
   m_ClearDynamicDataOnBuild: 0

@@ -19,6 +19,7 @@ public class Enemies : MonoBehaviour
     void Start()
     {
        isAlive = true;
+
     }
 
     void Update()

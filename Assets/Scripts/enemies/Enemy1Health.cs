@@ -21,6 +21,7 @@ public class Enemy1Health : MonoBehaviour
     public void GetHit()
     {
         hp = hp - 1;
+
         if (hp == 0)
         {
             ee.Dead();

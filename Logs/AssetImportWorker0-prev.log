@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19042.1052; Version 2009; 64bit' Language: 'es' Physical Memory: 16168 MB
+OS: 'Windows 10 Home Single Language; OS build 19042.1083; Version 2009; 64bit' Language: 'es' Physical Memory: 16168 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/anton/Downloads/Unity/SirArist
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61111
+55430
 Successfully changed project path to: C:/Users/anton/Downloads/Unity/SirArist
 C:/Users/anton/Downloads/Unity/SirArist
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Users/anton/Downloads/Unity/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,206 +35,104 @@ Initialize mono
 Mono path[0] = 'C:/Users/anton/Downloads/Unity/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/anton/Downloads/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Users/anton/Downloads/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/anton/Downloads/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Users/anton/Downloads/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003135 seconds.
+Registered in 0.003108 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 39.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.600 seconds
+- Completed reload, in  1.498 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001521 seconds.
+Registered in 0.000896 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.049 seconds
+- Completed reload, in  0.984 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1335 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.3 MB.
-System memory in use after: 80.3 MB.
+Unloading 1332 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1813.
-Total: 2.150700 ms (FindLiveObjects: 0.154000 ms CreateObjectMapping: 0.054800 ms MarkObjects: 1.862900 ms  DeleteObjects: 0.078100 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1810.
+Total: 2.165200 ms (FindLiveObjects: 0.173200 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.876300 ms  DeleteObjects: 0.072900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Nivel 1.unity
-  artifactKey: Guid(a9d8a8feb0d272244899858a7af43e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nivel 1.unity using Guid(a9d8a8feb0d272244899858a7af43e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8304cc46294e2fb4d32bdce59e82e677') in 0.012476 seconds 
+  path: Assets/models/Texturizado raton
+  artifactKey: Guid(b4d8793fdae26224fa18fe86d106623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Texturizado raton using Guid(b4d8793fdae26224fa18fe86d106623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cac4f36b15fcfff9b92ec8b1543846') in 0.004660 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.713787 seconds.
-  path: Assets/Scenes/Nivel 2.unity
-  artifactKey: Guid(0180b6f32dbf9684d89a3c36511b12a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Nivel 2.unity using Guid(0180b6f32dbf9684d89a3c36511b12a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab5b5120912f22d85d4864095f51a2d') in 0.003921 seconds 
+  Time since last request: 86.292970 seconds.
+  path: Assets/models/trampas/Materials/picos y piso trampatexturizado.mat
+  artifactKey: Guid(4ad5d1e8b6d9160408b45fea1437cb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/trampas/Materials/picos y piso trampatexturizado.mat using Guid(4ad5d1e8b6d9160408b45fea1437cb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881e6a28c307b98c4f00e23c39f23dce') in 0.242547 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.737175 seconds.
-  path: Assets/Scenes/aa.unity
-  artifactKey: Guid(24998f1f421142647899e126d9496254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/aa.unity using Guid(24998f1f421142647899e126d9496254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496bada4fc014c1f555fab4ff4b59c8c') in 0.003176 seconds 
+  Time since last request: 119.088740 seconds.
+  path: Assets/models/Materials/raton diffuse.mat
+  artifactKey: Guid(7871590dd00fa0c46b0342743e04e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Materials/raton diffuse.mat using Guid(7871590dd00fa0c46b0342743e04e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598603d5c42e38dc02f860cd1de9c095') in 0.034035 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 631.304376 seconds.
+  Time since last request: 0.000293 seconds.
+  path: Assets/models/Materials/raton_diffuse.mat
+  artifactKey: Guid(e5ccdadf7dfa36e4eb1b9b168733eebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Materials/raton_diffuse.mat using Guid(e5ccdadf7dfa36e4eb1b9b168733eebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b84dc9697ceb51f738d337d3d5bad4') in 0.009574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.022171 seconds.
+  path: Assets/models/Texturizado raton/raton diffuse.jpg
+  artifactKey: Guid(7f79068a1de1eb149ae0c024e2a1aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Texturizado raton/raton diffuse.jpg using Guid(7f79068a1de1eb149ae0c024e2a1aff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d58ebefdec99164a48eff5cfab0dea') in 0.068421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/models/Texturizado raton/raton psd.psd
+  artifactKey: Guid(53e73843c9f3cf5498566c3fcf3eb6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Texturizado raton/raton psd.psd using Guid(53e73843c9f3cf5498566c3fcf3eb6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e251fef25f6a04524c32d5b29a32fe') in 0.023474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/models/Texturizado raton/raton png.png.png
+  artifactKey: Guid(ee07613aebfc5094f9f4abaf6910ed59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Texturizado raton/raton png.png.png using Guid(ee07613aebfc5094f9f4abaf6910ed59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56289f925b8834641511156137561dd0') in 0.033280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/models/Texturizado raton/raton_diffuse.jpg
+  artifactKey: Guid(dfe37c372796839428c7bd96610406e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Texturizado raton/raton_diffuse.jpg using Guid(dfe37c372796839428c7bd96610406e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea2d028d04693c06230c9f6cec085f6') in 0.013268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/models/Texturizado raton/RATON TEXTURIZADO.obj
+  artifactKey: Guid(63ba2a4975d2fd348b68b32ea4bd4dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Texturizado raton/RATON TEXTURIZADO.obj using Guid(63ba2a4975d2fd348b68b32ea4bd4dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fd4c323100ffb8fd80d6b3dfdc0da4') in 0.071152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.036111 seconds.
+  path: Assets/Scenes/as.unity
+  artifactKey: Guid(cab5dd14366940e40908db93a995dfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/as.unity using Guid(cab5dd14366940e40908db93a995dfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a8d17e9e3eebf544ac28044697e4e9') in 0.005524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.640873 seconds.
   path: Assets/prefabs/traps/trap1.prefab
   artifactKey: Guid(7aa97554b9e2ad444939176c79d204f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/traps/trap1.prefab using Guid(7aa97554b9e2ad444939176c79d204f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599681dc04c22c81681346a63da6eba7') in 0.057278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.114979 seconds.
-  path: Assets/models/trampas/balista.obj
-  artifactKey: Guid(45b0840a0d2a80f46af7db78a50c66b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/balista.obj using Guid(45b0840a0d2a80f46af7db78a50c66b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd42fef5969465f6b322b954f4f5b178') in 0.286775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/models/trampas/piso_2_trampas.png
-  artifactKey: Guid(4c308235e2c7d81468ea2349c73459d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/piso_2_trampas.png using Guid(4c308235e2c7d81468ea2349c73459d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ce07b87108cb7de2509f24c3a3c75d') in 0.024887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/models/trampas/piso 2 trampas.png
-  artifactKey: Guid(3cf7b18641eeaff488aed351f1fbd119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/piso 2 trampas.png using Guid(3cf7b18641eeaff488aed351f1fbd119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5104bd8eb4528dee08a8de8affeb21f6') in 0.012228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/models/trampas/piso texturizados.png
-  artifactKey: Guid(b06c2a4685e88c64cb0cf60d8b059ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/piso texturizados.png using Guid(b06c2a4685e88c64cb0cf60d8b059ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f03f06121f0aa5a68abe48316ac1608') in 0.013706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/models/trampas/picos_y_piso_trampatexturizado.png
-  artifactKey: Guid(991b105bc5fd34c4a88d733896707ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/picos_y_piso_trampatexturizado.png using Guid(991b105bc5fd34c4a88d733896707ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21a3538ce439e618cf3e444e8bcee6a') in 0.010247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/models/trampas/piso_texturizados.png
-  artifactKey: Guid(a6468be10c47cb84fac67864c860e370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/piso_texturizados.png using Guid(a6468be10c47cb84fac67864c860e370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c61b58fbd8e54ae69cdf8bf4062118') in 0.008943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/models/trampas/trampa2.obj
-  artifactKey: Guid(ca5e466fda337da4ba76919c153cbd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/trampa2.obj using Guid(ca5e466fda337da4ba76919c153cbd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bf68ee574e217e73629188b8d67cc7') in 0.043006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/models/trampas/cabeza balista.png
-  artifactKey: Guid(39f1cccf9d5ecad4a99aced8a9cf560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/cabeza balista.png using Guid(39f1cccf9d5ecad4a99aced8a9cf560d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1babb02ab373ff1fb0d914cb85b01eb3') in 0.012379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/models/trampas/cubo balistica.png
-  artifactKey: Guid(1209a5ae388adb14eb1206d0464e1816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/cubo balistica.png using Guid(1209a5ae388adb14eb1206d0464e1816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed4ab89d6ea92b04dd8c799d2a9a934') in 0.017795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/models/trampas/picos y piso trampatexturizado.png
-  artifactKey: Guid(1be0dd06b58a9cb4fbc00e30f1234ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/picos y piso trampatexturizado.png using Guid(1be0dd06b58a9cb4fbc00e30f1234ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c82dbda5b9569d6ed33b6f66dded47') in 0.012753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 46.080858 seconds.
-  path: Assets/models/trampas/balista.obj
-  artifactKey: Guid(45b0840a0d2a80f46af7db78a50c66b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/balista.obj using Guid(45b0840a0d2a80f46af7db78a50c66b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499f4c94e21b0db58b2a20866ff8da03') in 0.060609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/models/trampas/trampa2.obj
-  artifactKey: Guid(ca5e466fda337da4ba76919c153cbd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/trampa2.obj using Guid(ca5e466fda337da4ba76919c153cbd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee19ab6fdd551b33e2c5f7eead38815') in 0.067322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.928534 seconds.
-  path: Assets/models/trampas/trampa2.mtl
-  artifactKey: Guid(669f47f452d920248a708e555f187943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/trampa2.mtl using Guid(669f47f452d920248a708e555f187943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebefbde5837abc72fb7ba10b740c867') in 0.006196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.949381 seconds.
-  path: Assets/models/trampas/trampa2 1.obj
-  artifactKey: Guid(77d4a492a3806414c946b377127d4c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/trampa2 1.obj using Guid(77d4a492a3806414c946b377127d4c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f755e5e5c2da5c23a3c993e9e4a52f27') in 0.034929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.762897 seconds.
-  path: Assets/models/trampas/balista.mtl
-  artifactKey: Guid(ec76d96587ec2fa47a77681b8248cef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/balista.mtl using Guid(ec76d96587ec2fa47a77681b8248cef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dca906bd7063a4e8144f78e8ae01d3') in 0.003212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.257435 seconds.
-  path: Assets/models/trampas/balista.obj
-  artifactKey: Guid(45b0840a0d2a80f46af7db78a50c66b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/balista.obj using Guid(45b0840a0d2a80f46af7db78a50c66b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d66fd0dd721e2dadfc0f1ca337805b1') in 0.042135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/models/trampas/trampa2.obj
-  artifactKey: Guid(ca5e466fda337da4ba76919c153cbd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/trampa2.obj using Guid(ca5e466fda337da4ba76919c153cbd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439ffa92376035cc0dc3e69693984c22') in 0.048089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 40.125011 seconds.
-  path: Assets/models/trampas/trampa1.obj
-  artifactKey: Guid(d61ebedc10e15ac43bd338b02ac2b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/trampa1.obj using Guid(d61ebedc10e15ac43bd338b02ac2b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f02df3f11bc7d70d84b2a49e230ad3') in 0.158215 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.230383 seconds.
-  path: Assets/models/trampas/Materials/piso texturizados.mat
-  artifactKey: Guid(c0a347b308871e641aee28610713e15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/Materials/piso texturizados.mat using Guid(c0a347b308871e641aee28610713e15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4f77dacebae5a0c1bedfbd6fe645fc') in 0.022133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/models/trampas/Materials/piso_texturizados.mat
-  artifactKey: Guid(ca030fe8c5bed4f439e740a12c556454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/models/trampas/Materials/piso_texturizados.mat using Guid(ca030fe8c5bed4f439e740a12c556454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260112252fb9d51f138d2fa1a39b1c3c') in 0.010889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 91.066896 seconds.
-  path: Assets/Scenes/inicio.unity
-  artifactKey: Guid(267a797fc890ee94d8997d9a9c64ae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/inicio.unity using Guid(267a797fc890ee94d8997d9a9c64ae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117c75c6dfa45029986a2c1951f91e66') in 0.003574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.790155 seconds.
-  path: Assets/Scenes/credits.unity
-  artifactKey: Guid(9624fe6558aa85d49ba7058da04f2ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/credits.unity using Guid(9624fe6558aa85d49ba7058da04f2ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcfcd4db53d4a4371774c1c51c13a64') in 0.003402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.726830 seconds.
-  path: Assets/Scenes/procLvlOG.unity
-  artifactKey: Guid(653b8bdac4974a6488d9c339248b05ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/procLvlOG.unity using Guid(653b8bdac4974a6488d9c339248b05ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e4b8abc576607cc18289f27b9ec632') in 0.003720 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.515523 seconds.
-  path: Assets/Scenes/Tutorial.unity
-  artifactKey: Guid(5dbff9acff8431b4882198b48ae45d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tutorial.unity using Guid(5dbff9acff8431b4882198b48ae45d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64004d4575cb63a0e48a5e5d0ec2d7e') in 0.004214 seconds 
+Start importing Assets/prefabs/traps/trap1.prefab using Guid(7aa97554b9e2ad444939176c79d204f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502871f5bb6dd91e4e1da505a90ee3c6') in 0.059775 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

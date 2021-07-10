@@ -1,0 +1,143 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1083; Version 2009; 64bit' Language: 'es' Physical Memory: 16168 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Users\anton\Downloads\Unity\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/anton/Downloads/Unity/SirArist
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56529
+Successfully changed project path to: C:/Users/anton/Downloads/Unity/SirArist
+C:/Users/anton/Downloads/Unity/SirArist
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Users/anton/Downloads/Unity/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/anton/Downloads/Unity/SirArist/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   27.21.14.5763
+Initialize mono
+Mono path[0] = 'C:/Users/anton/Downloads/Unity/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/anton/Downloads/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/anton/Downloads/Unity/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/anton/Downloads/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/anton/Downloads/Unity/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003075 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.02 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.584 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1332 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1810.
+Total: 2.016900 ms (FindLiveObjects: 0.134400 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.761700 ms  DeleteObjects: 0.074400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ITSpawn.cs
+  artifactKey: Guid(388b40e645a9e4244b587afee0d18dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ITSpawn.cs using Guid(388b40e645a9e4244b587afee0d18dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04657497686e1913bf6bba4f02367f52') in 0.038736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.335386 seconds.
+  path: Assets/Scripts/procArea.cs
+  artifactKey: Guid(0f0c967871473db43914f17375b322ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/procArea.cs using Guid(0f0c967871473db43914f17375b322ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7795be2d3f26fa940b6826d00291299d') in 0.011469 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000885 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1313 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.1 MB.
+System memory in use after: 79.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1812.
+Total: 1.996100 ms (FindLiveObjects: 0.130700 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.775300 ms  DeleteObjects: 0.046900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5872.202593 seconds.
+  path: Assets/Scenes/procLvL.unity
+  artifactKey: Guid(8dd80ed649e910a4cae1c485b87e070c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/procLvL.unity using Guid(8dd80ed649e910a4cae1c485b87e070c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b358f8d30617657858ca2d488c0a055') in 0.039868 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001419 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1313 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.1 MB.
+System memory in use after: 79.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1815.
+Total: 3.352200 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.132100 ms MarkObjects: 2.911900 ms  DeleteObjects: 0.106400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.1 MB.
+System memory in use after: 53.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1815.
+Total: 2.674200 ms (FindLiveObjects: 0.135700 ms CreateObjectMapping: 0.050700 ms MarkObjects: 2.441000 ms  DeleteObjects: 0.045400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
