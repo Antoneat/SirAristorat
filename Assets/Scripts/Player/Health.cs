@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-using TMPro;
 
 public class Health : MonoBehaviour
 {
@@ -12,14 +12,25 @@ public class Health : MonoBehaviour
     private float vulTimer = 0f;
     private float vulCD = 0f;
 
-    Player ply;
+    public bool isAlive;
+    public EnemyStun es;
+    public EnemyStun es2;
+    void Awake()
+    {
+        GameObject Enemy1 = GameObject.FindGameObjectWithTag("enemy1");
+        GameObject Enemy2 = GameObject.FindGameObjectWithTag("enemy2");
+        es = Enemy1.GetComponent<EnemyStun>();
+        es2 = Enemy2.GetComponent<EnemyStun>();
+    }
 
 
     void Start()
     {
-        ply = GetComponent<Player>();
         hp = 3;
        vulnerable = true;
+
+        isAlive = true;
+
     }
 
     void Update()
@@ -75,7 +86,7 @@ public class Health : MonoBehaviour
 
             if (hp <= 0)
             {
-                ply.Dead();
+                Dead();
                
             }
         }
@@ -92,8 +103,38 @@ public class Health : MonoBehaviour
             if (hp <= 0)
             {
                 HpText.hpV -= 1;
-                ply.Dead();
+                Dead();
             }
         }
+    }
+
+    void OnCollisionEnter(Collision other)
+    {
+
+        if (es.notStun == true)
+        {
+            if (other.gameObject.tag == "enemy1")
+            {
+                GetHit1();
+            }
+        }
+
+        if (es2.notStun == true)
+        {
+            if (other.gameObject.tag == "enemy2")
+            {
+                GetHit2();
+            }
+        }
+
+
+    }
+
+    public void Dead()
+    {
+
+        isAlive = false;
+        Destroy(gameObject);
+        SceneManager.LoadScene("GameO");
     }
 }

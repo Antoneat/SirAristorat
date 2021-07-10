@@ -68,14 +68,4 @@ public class Player : MonoBehaviour
         }
     }
 
-
-    public void Dead()
-    {
-
-        isAlive = false;
-        Destroy(gameObject);
-
-        SceneManager.LoadScene("GameO");
-
-    }
 }
