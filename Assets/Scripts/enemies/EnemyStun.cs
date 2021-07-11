@@ -48,12 +48,7 @@ public class EnemyStun : MonoBehaviour
         }
     }
 
-    /*IEnumerator GetStunned()
-    {
-        yield return new WaitForSeconds(6f);
-        Debug.Log("no longer stunned");
-        GameObject.Find("Player").GetComponent<PHeathEnemy>().enabled = true;
-    }*/
+
 
     void OnCollisionEnter(Collision other)
     {

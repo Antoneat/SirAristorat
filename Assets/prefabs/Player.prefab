@@ -211,8 +211,8 @@ GameObject:
   - component: {fileID: 2150437786690263625}
   - component: {fileID: 6051217421905194435}
   - component: {fileID: 1818170829925163904}
-  - component: {fileID: 1739512867686036750}
   - component: {fileID: 7086852951492298334}
+  - component: {fileID: 1739512867686036750}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -263,6 +263,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 3
+  isAlive: 0
+  es: {fileID: 0}
+  es2: {fileID: 0}
 --- !u!114 &2150437786690263625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,6 +312,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   model1: {fileID: 580450493435611597}
   model2: {fileID: 7641924082999497612}
+--- !u!114 &7086852951492298334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8230329092539563414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106a937c792b58a488d959fce8b07cb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  space: 1
+  items: []
+  invS: {fileID: 0}
 --- !u!54 &1739512867686036750
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -325,21 +343,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 96
   m_CollisionDetection: 0
---- !u!114 &7086852951492298334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8230329092539563414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 106a937c792b58a488d959fce8b07cb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  space: 1
-  items: []
-  invS: {fileID: 0}
 --- !u!1001 &346572061300438172
 PrefabInstance:
   m_ObjectHideFlags: 0

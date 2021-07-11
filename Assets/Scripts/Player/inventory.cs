@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class inventory : MonoBehaviour
 {
+
     public delegate void OnItemChanged();
     public OnItemChanged onItemChangedCallback;
     public int space = 1;
